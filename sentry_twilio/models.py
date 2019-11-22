@@ -116,7 +116,7 @@ class TwilioPlugin(NotificationPlugin):
         body = 'Sentry [{0}] {1}: {2}'.format(
             project.name.encode('utf-8'),
             event.get_level_display().upper().encode('utf-8'),
-            event.error().encode('utf-8').splitlines()[0]
+            event.title.encode('utf-8').splitlines()[0]
         )
         body = body[:MAX_SMS_LENGTH]
 
