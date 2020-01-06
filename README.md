@@ -1,4 +1,6 @@
 # sentry-twilio
+DEPRECATED: This project now lives in [sentry](https://github.com/getsentry/sentry/tree/master/src/sentry_plugins/twilio)
+
 A plugin for [Sentry](https://www.getsentry.com/) that sends SMS notifications via [Twilio](http://www.twilio.com/)
 
 **Note**: Only works with US numbers, mostly because I'm too lazy to think about international phone numbers and what to do with them. Feel free to submit a pull request.
